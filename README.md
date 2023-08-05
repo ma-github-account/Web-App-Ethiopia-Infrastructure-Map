@@ -10,11 +10,11 @@ Map functionalities:
 
 Prerequisites:
 
-Python 3.9.7,
-Django 4.1.2,
-Django Rest Framework 3.14.0
-Pillow 7.0.0 (pip install Pillow==7.0.0)
-GeoDjango (PostGIS, PostgreSQL, Psycopg2, OSGeo4W, Gdal) After installing PostreSQL and creating geospatial database, it needs to be referenced in settings.py file (line 109).
+- Python 3.9.7,
+- Django 4.1.2,
+- Django Rest Framework 3.14.0
+- Pillow 7.0.0 (pip install Pillow==7.0.0)
+- GeoDjango (PostGIS, PostgreSQL, Psycopg2, OSGeo4W, Gdal) After installing PostreSQL and creating geospatial database, it needs to be referenced in settings.py file (line 109).
 After creating geospatial database, the categories in Admin panel need to be created in following order: 1.Industrial Park 2.Dam 3.Bridge 4.Airport That way the proper icons are assigned to particular categories.
 
 Application is based on Australian Cultural Heritage Places application presented by Ikrom Nishanbaev in his Udemy Course "Leaflet From Scratch With A GeoDjango Project".
